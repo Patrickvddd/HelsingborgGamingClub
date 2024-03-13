@@ -11,13 +11,19 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:yellow;
       
 }
-
+#skaneflag{
+    display: flex;
+    position: absolute;
+    width:300px;
+    top:75px;
+}
 
 #nav {
     display:flex;
-    position:fixed;
+    position:absolute;
     justify-content: space-between;
     right:0;
 }
@@ -29,28 +35,143 @@ body {
 }
 .half{
     width: 50vw;
+    border-radius: 5px;
+    
 }
-#images{
+#headings{
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
     display: flex;
+    justify-content:space-between;
+    flex-direction:row-reverse;
+    width:100%;
+    
 }
-
 #wwpheading{
     
-    width: 10%;
-    margin-left:50px;
-}
-#wwdheading{
+padding-right:140px;
     
-    width:25%;
-    margin-left:50px;
+}
+#wnwheading{
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    width: 100%;
+    background-color:hsl(227, 100%, 56%);
+    margin-bottom: -22px;
+    margin-top: -41px;
+    height:100px;
+    text-indent: 40%;
+    
+
 
 }
-#whatweplay{
-    position: relative;
-    text-align: left;
-    color: white;
+#whatweplay
+{
+    display:flex;
+    width:100%;
+    background-color:red;
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    border-radius: 5px;
 }
-#gamelist {
+#wwdcontent{
+    width:25vw;
+    padding:5px;
+    flex-grow: 1;
+    
+    
+}
+#gamelist{
+    flex-grow: 1;
+    width:25vw;
+}
+#whereandwhen{
+   
     display: flex;
-    right: 0;
+    background-color:hsl(227, 100%, 56%);
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    height:200px;
+    
+    
+}
+
+#locationheading{
+   
+    margin-left:5%;
+    padding:5px;
+    flex-grow: 1;
+    margin-top: 75px;
+}
+#wnwcontent{
+
+    flex-grow: 1;
+    margin-left:-11%;
+    padding-top:-15%;
+    
+}
+#contact{
+    display:flex;
+    width:100%;
+    background-color:red;
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    border-radius: 5px;
+    
+}
+#contactalign{
+    display:flex;
+    flex-direction: column;
+    padding-left:20px;
+    
+  
+    
+}
+#text{
+    width: 300px;
+    height:200px;
+    margin-left:90px;
+    margin-top:20px;
+}
+#email{
+    width: 300px;
+    height: 25px;
+    
+}
+#submit{
+    color:yellow;
+    background-color:hsl(227, 100%, 56%) ;
+    height: 50px;
+    width:150px;
+    font-size:35px;
+    font-family: "Madimi One", sans-serif;
+    position: relative;
+    bottom:75px;
+}
+#socialmedia{
+
+    float: right;
+    padding:10px;
+  
+}
+.socialmediaicons{
+    padding:10px;
+    
+}
+#twitter{
+    width:75px;
+    height:75px;
+}
+#facebook{
+    width:75px;
+    height:75px;
+}
+#instagram{
+    width:75px;
+    height:75px;
 }
