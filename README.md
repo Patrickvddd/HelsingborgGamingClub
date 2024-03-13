@@ -71,4 +71,7 @@ It also has an email address incase the user wants too email us from their own e
 
 # testing
 
+This site was tested and works on Google Chrome, Opera(based on Firefox) and Microsoft Edge.
+All navigation buttons work on all sites and all images appear on all sites.
+All form content works and the email section requires an email address.
 
