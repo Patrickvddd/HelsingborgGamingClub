@@ -4,6 +4,13 @@ body {
     margin: 0;
     padding: 0;
   }
+  
+#nav {
+    display:flex;
+    position:absolute;
+    justify-content: space-between;
+    right:0;
+}
 /*PC version */
 @media only screen and (min-width: 1600px){
 
