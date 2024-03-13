@@ -16,6 +16,17 @@ body {
     display: none;
     top: 100%;
 }
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 #headtitle {
     background-color:rgb(44, 126, 126);
     font-family: "Bebas Neue", sans-serif;
