@@ -69,9 +69,54 @@ It also has an email address incase the user wants too email us from their own e
 
 ![Alt text](assets/photos/footer.png)
 
-# testing
+# Testing
 
 This site was tested and works on Google Chrome, Opera(based on Firefox) and Microsoft Edge.
 All navigation buttons work on all sites and all images appear on all sites.
 All form content works and the email section requires an email address.
 
+![Alt text](assets/photos/htmltest.png)  ![Alt text](assets/photos/csstest.png)
+
+![Alt text](assets/photos/lighthousetest.png)
+
+# Known Bugs
+
+## Resloved
+
+During validation two bugs became known during the validation stage, a brief description is below:
+
+![Alt text](assets/photos/htmlbug.png) ![Alt text](assets/photos/iconbug.png)
+
+during deployment this came up, it was an ovesight from previewing through the terminal
+
+## Unresolved
+
+![Alt text](assets/photos/bugright.png)
+
+this bug has pained me all through the project and i have still yet too figure out why it exists, for some reason it doesnt line up.
+this is only viewable if you scroll diagonally and viewed from smaller device's its not there.
+
+# Deployment
+
+* My site was deployed on Github Pages, following these steps
+  * In the GitHub repository, navigate to the Settings tab.
+  * Once in Settings, navigate to the Pages tab on the left hand side.
+  * Under Source, select the branch to master, then click save.
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+You can find the link [here](https://patrickvddd.github.io/HelsingborgGamingClub/)
+
+
+# Credits
+
+## Content
+  * The font came from [google fonts](https://fonts.google.com)
+  * The map is embedded from [google maps](https://www.google.com/maps)
+  * The icons came from [font awesome](https://fontawesome.com)
+  * The phots are from [pexels](https://pexels.com)
+  * [balsamiq](https://balsamiq.com) was used to create the wireframes.
+
+  
+  The site was completed as a Portfolio 1 Project piece for the Full Stack Software Developer  Diploma at the Code Institute. 
+
+Patrick van Daal 2024
