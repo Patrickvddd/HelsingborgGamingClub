@@ -360,7 +360,7 @@ border-radius: 5px;
 #skaneflag{
     display: flex;
     position: absolute;
-    width:5%;
+    width:150px;
     top: 70px;
 
 }
