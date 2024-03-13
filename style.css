@@ -34,23 +34,17 @@ body {
         
     }
 
-    #headtitle {
-        background-color:rgb(44, 126, 126);
-        font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        color:yellow;
-        width: 100%;
-          
-    }
+   
+    
     .half{
         width: 100vw;
         border-radius: 5px;
        
 }
 #skaneflag{
-    width:100%;
+    
     margin-top: 20px;
+    margin-left: 2%;
 }
 #wwpheading{
     padding-left:5px;
@@ -171,12 +165,10 @@ border-radius: 5px;
 }
  
 
-
 #text{
     width: 186px ;
     height:200px ; 
 }
-
 
 
 }
@@ -190,18 +182,16 @@ border-radius: 5px;
         font-style: normal;
         color:yellow;
         width: 100vw;
-          
+        text-indent: 2%;
     }
     #nav{
         top:20px;
     }
-    #skaneflag{
-        width:30%;
-    }
+    
     .half{
         width: 100vw;
         border-radius: 5px;
-        
+
         
     }
     #headings{
@@ -269,7 +259,7 @@ border-radius: 5px;
     
         flex-grow: 1;
         margin-left:-11%;
-        padding-top:-15%;
+        
         
     }
     
@@ -370,7 +360,7 @@ border-radius: 5px;
 #skaneflag{
     display: flex;
     position: absolute;
-    width:10%;
+    width:5%;
     top: 70px;
 
 }
@@ -456,7 +446,7 @@ padding-right:140px;
 
     flex-grow: 1;
     margin-left:-11%;
-    padding-top:-15%;
+    
     
 }
 
