@@ -11,6 +11,14 @@ body {
     justify-content: space-between;
     right:0;
 }
+#headtitle {
+    background-color:rgb(44, 126, 126);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:yellow;
+      
+}
 /*PC version */
 @media only screen and (min-width: 1600px){
 
