@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&display=swap');
-
-
 body {
     margin: 0;
     padding: 0;
   }
+/*PC version */
+@media only screen and (min-width: 1600px){
+
 #headtitle {
     background-color:rgb(44, 126, 126);
     font-family: "Bebas Neue", sans-serif;
@@ -17,8 +18,9 @@ body {
 #skaneflag{
     display: flex;
     position: absolute;
-    width:300px;
-    top:75px;
+    width:200px;
+    top: 70px;
+
 }
 
 #nav {
@@ -62,10 +64,8 @@ padding-right:140px;
     margin-bottom: -22px;
     margin-top: -41px;
     height:100px;
-    text-indent: 40%;
+    text-indent: 42%;
     
-
-
 }
 #whatweplay
 {
@@ -97,7 +97,6 @@ padding-right:140px;
     color:yellow;
     height:200px;
     
-    
 }
 
 #locationheading{
@@ -114,6 +113,14 @@ padding-right:140px;
     padding-top:-15%;
     
 }
+
+#googlemap{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #contact{
     display:flex;
     width:100%;
@@ -153,6 +160,9 @@ padding-right:140px;
     position: relative;
     bottom:75px;
 }
+
+
+
 #socialmedia{
 
     float: right;
@@ -174,4 +184,8 @@ padding-right:140px;
 #instagram{
     width:75px;
     height:75px;
+}
+}
+@media only screen and (min-width: 1200px){
+
 }
