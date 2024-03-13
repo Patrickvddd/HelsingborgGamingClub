@@ -202,5 +202,8 @@ padding-right:140px;
 }
 }
 @media only screen and (min-width: 1200px){
+    #skaneflag{
+        width:30%;
+    }
 
 }
