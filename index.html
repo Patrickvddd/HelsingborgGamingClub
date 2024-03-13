@@ -6,7 +6,8 @@
     <!--meta tags-->
     <meta name="desription" content="Helsingborg gaming club for gamers in Helsingborg Skåne Sweden.">
     <meta name="keywords" content="gaming, counter strike, csgo, dota 2, dota, league of legends, rocket league, tekken, street fighter, fortnite">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="style.css">
     <style>
 
@@ -21,7 +22,7 @@
 <body>
     
     <!--nav-->
-    <nav id="nav"><a class="navbutton" href="#wwpheading">What we Play</a> <a class="navbutton" href="#wnwheading">Where and When</a> <a class="navbutton" href="#contact">Contact</a></nav>
+    <nav id="nav"><a class="navbutton" href="#gamelist">What we Play</a> <a class="navbutton" href="#wnwheading">Where and When</a> <a class="navbutton" href="#contacth">Contact</a></nav>
     <!--header-->
     <h1 id="headtitle">Helsingborg Gaming Club</h1>
 
@@ -38,6 +39,7 @@
         </div>
     <div id="whatweplay">
             <img class="half" id="gaming1" src="assets/photos/gaming1.jpg" alt="Competitive PC gaming in with teammates">
+            <div id="wwpcontent">
             <div id="gamelist">
 
             <ul ><span>Games:</span>
@@ -52,7 +54,7 @@
             </ul>
         </div>
         <p id="wwdcontent">Helsingborgs gaming club is open too all skill levels. We play together too improve and have fun. As a group we often go too events around the nordic region and sometimes too big events in europe. If this sounds like something you would be interested in <a href="#contact">let us know</a></p>
-            
+    </div>
         
     </div>
 
@@ -86,11 +88,15 @@
         
         <img class="half" id="helsingborgphoto" src="assets/photos/helsingborg.jpg" alt="Overview of the city of helsingborg" >
         <div id="contactalign">
+            
         <h2 id="contacth">Contact us:</h2>
         
-        <p id="contactp">Email: HelsingborgGamingClub@helsingborg.com</p>
+        <div id="contactform">
         <form method="POST" action="https://formdump.codeinstitute.net/">
-            <label for="email">email</label>
+            <label for="name">Name</label>
+            <input id="name" type="text"></input>
+            <br>
+            <label for="email">Email</label>
             <input id="email" type="email">
             <br>
             <label for="text"></label>
@@ -101,13 +107,19 @@
     </div>
     </div>
     
+    </div>
+    
     <!--Footer-->
     <footer>
+        
         <div id="socialmedia">
+
         <a id="twitter" class="socialmediaicons" href="https://twitter.com" target="_blank" rel="noopener"><img id="twitter" src="/assets/photos/twitter.png" alt="twitter icon that goes too our twitter page"></a>
         <a id="facebook" class="socialmediaicons" href="https://facebook.com" target="_blank" rel="noopener"><img id="facebook" src="/assets/photos/facebook.png" alt="facebook icon that goes too our facebook page"></a>
         <a id="instagram" class="socialmediaicons" href="https://instagram.com" target="_blank" rel="noopener"><img id="instagram" src="/assets/photos/instagram.png" alt="instagram icon that goes too our instagram page"></a>
-    </div>      
+          
+    </div> 
+    <p id="contactp">Email: HelsingborgGamingClub@helsingborg.com</p>      
     </footer>
     
 </body>

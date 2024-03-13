@@ -6,16 +6,358 @@ body {
   }
   
 
-#headtitle {
-    background-color:rgb(44, 126, 126);
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:yellow;
-      
+
+#nav {
+    display:flex;
+    position:absolute;
+    justify-content: space-between;
+    right:50px;
+    
 }
+.navbutton{
+    margin: 10px;
+    font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*mobile version */
+
+@media (min-width:320px) {
+
+    #nav {
+        display:flex;
+        position:absolute;
+        justify-content: space-between;
+        right:50px;
+        top:50px;
+        
+        
+    }
+
+    #headtitle {
+        background-color:rgb(44, 126, 126);
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:yellow;
+        width: 100%;
+          
+    }
+    .half{
+        width: 100vw;
+        border-radius: 5px;
+       
+}
+#skaneflag{
+    width:100%;
+    margin-top: 20px;
+}
+#wwpheading{
+    padding-left:5px;
+
+
+}
+
+#headings{
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    display: flex;
+    justify-content:space-between;
+    
+    width:100%;
+    
+}
+#wwpcontent
+{
+display: inline-flex;
+width:100%;
+background-color:red;
+font-family: "Madimi One", sans-serif;
+font-size:20px;
+color:yellow;
+border-radius: 5px;
+
+
+}
+#wwdcontent{
+    width:25vw;
+    
+    flex-grow: 1;
+    
+    
+    
+    
+}
+#gamelist{
+    flex-grow: 1;
+    width:25vw;
+    
+}
+#wnwheading{
+    font-family: "Madimi One", sans-serif;
+    font-size:32px;
+    color:yellow;
+    width: 100%;
+    background-color:hsl(227, 100%, 56%);
+    margin-bottom: -22px;
+    margin-top: -41px;
+    height:100px;
+    text-indent: 10%;
+}
+#whereandwhen{
+
+    display: flex;
+    background-color:hsl(227, 100%, 56%);
+    font-family: "Madimi One", sans-serif;
+    font-size:20px;
+    color:yellow;
+    height:200px;
+    
+}
+
+#locationheading{
+   
+    margin-left:5%;
+    padding:5px;
+    flex-grow: 1;
+}
+#wnwcontent{
+
+    flex-grow: 1;
+    padding-right: 5px;
+    
+}
+
+#googlemap{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#contacth{
+    display: flex;
+    justify-content: center;
+}
+#socialmedia{
+
+    
+    padding:10px;
+  
+}
+.socialmediaicons{
+    padding:10px;
+    float: right;
+}
+#twitter{
+    width:75px;
+    height:75px;
+}
+#facebook{
+    width:75px;
+    height:75px;
+}
+#instagram{
+    width:75px;
+    height:75px;
+}
+#contactp{
+    
+   
+   
+   font-family: "Madimi One", sans-serif;
+   color:yellow;
+
+}
+ 
+
+
+#text{
+    width: 186px ;
+    height:200px ; 
+}
+
+
+
+}
+
+
+@media screen and (min-width: 666px){
+    #headtitle {
+        background-color:rgb(44, 126, 126);
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:yellow;
+        width: 100vw;
+          
+    }
+    #nav{
+        top:20px;
+    }
+    #skaneflag{
+        width:30%;
+    }
+    .half{
+        width: 100vw;
+        border-radius: 5px;
+        
+        
+    }
+    #headings{
+        font-family: "Madimi One", sans-serif;
+        font-size:35px;
+        color:yellow;
+        display: flex;
+        justify-content:space-between;
+        
+        width:100%;
+        
+    }
+    #wwpcontent
+{
+    display: inline-flex;
+    width:100%;
+    background-color:red;
+    font-family: "Madimi One", sans-serif;
+    font-size:35px;
+    color:yellow;
+    border-radius: 5px;
+    
+}
+    #wwdcontent{
+        width:25vw;
+        
+        flex-grow: 1;
+        
+        
+    }
+    #gamelist{
+        flex-grow: 1;
+        width:25vw;
+    }
+    #wnwheading{
+        font-family: "Madimi One", sans-serif;
+        font-size:35px;
+        color:yellow;
+        width: 100%;
+        background-color:hsl(227, 100%, 56%);
+        margin-bottom: -22px;
+        margin-top: -41px;
+        height:100px;
+        text-indent: 37%;
+    }
+    #whereandwhen{
+   
+        display: flex;
+        background-color:hsl(227, 100%, 56%);
+        font-family: "Madimi One", sans-serif;
+        font-size:35px;
+        color:yellow;
+        height:270px;
+        
+    }
+    
+    #locationheading{
+       
+        margin-left:5%;
+        padding:5px;
+        flex-grow: 1;
+        margin-top: 75px;
+    }
+    #wnwcontent{
+    
+        flex-grow: 1;
+        margin-left:-11%;
+        padding-top:-15%;
+        
+    }
+    
+    #googlemap{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    #contactp{
+        
+       padding-right:150px ;
+       font-size: 150%;
+       font-family: "Madimi One", sans-serif;
+       color:yellow;
+    
+    }
+     
+    }
+    #contactalign{
+        height:400px;
+        width:100%;
+        background-color:red;
+        font-family: "Madimi One", sans-serif;
+        font-size:12px;
+        color:yellow;
+        border-radius: 5px;
+        margin-top: 10px;
+       
+        
+    }
+    #contactform{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    #text{
+       
+        margin-top:20px;
+    }
+    #email{
+        width: 150px;
+        height: 25px;
+        margin-left:1px;
+        
+        
+    }
+    #name{
+        width: 150px;
+        height: 25px;
+        margin-bottom: 5px;
+    }
+    #submit{
+        color:yellow;
+        background-color:hsl(227, 100%, 56%) ;
+        height: 40px;
+        width:150px;
+        font-size:25px;
+        font-family: "Madimi One", sans-serif;
+        position: relative;
+        left: 5px;
+        bottom:5px;
+        top: 2px;
+        box-shadow: 1px 1px 1px hsl(227, 100%, 56%);
+        display: flex;
+        position: relative;
+        
+    }
+
+
+
+
+
+
 /*PC version */
 @media only screen and (min-width: 1600px){
+    #nav {
+        display:flex;
+        position:absolute;
+        justify-content: space-between;
+        right:50px;
+        top:20px;
+        
+        
+    }
+
 
 #headtitle {
     background-color:rgb(44, 126, 126);
@@ -28,25 +370,26 @@ body {
 #skaneflag{
     display: flex;
     position: absolute;
-    width:200px;
+    width:10%;
     top: 70px;
 
 }
-
-#nav {
-    display:flex;
-    position:absolute;
-    justify-content: space-between;
-    right:0;
-}
-.navbutton{
-    margin: 10px;
+#wwpcontent
+{
+    display: flex;
+    
+    background-color:red;
     font-family: "Madimi One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-size:35px;
+    color:yellow;
+    border-radius: 5px;
+    
 }
+
+
+
 .half{
-    width: 50vw;
+    width: 50%;
     border-radius: 5px;
     
 }
@@ -77,9 +420,11 @@ padding-right:140px;
     text-indent: 42%;
     
 }
+
 #whatweplay
 {
     display:flex;
+    
     width:100%;
     background-color:red;
     font-family: "Madimi One", sans-serif;
@@ -87,17 +432,8 @@ padding-right:140px;
     color:yellow;
     border-radius: 5px;
 }
-#wwdcontent{
-    width:25vw;
-    padding:5px;
-    flex-grow: 1;
-    
-    
-}
-#gamelist{
-    flex-grow: 1;
-    width:25vw;
-}
+
+
 #whereandwhen{
    
     display: flex;
@@ -150,15 +486,19 @@ padding-right:140px;
     
 }
 #text{
-    width: 300px;
+    width: 333px;
     height:200px;
-    margin-left:90px;
-    margin-top:20px;
+   
+    margin-top:5px;
 }
 #email{
     width: 300px;
     height: 25px;
     
+}
+#name{
+    width: 300px;
+    height: 25px;
 }
 #submit{
     color:yellow;
@@ -169,6 +509,7 @@ padding-right:140px;
     font-family: "Madimi One", sans-serif;
     position: relative;
     bottom:75px;
+    box-shadow: 1px 1px 1px hsl(227, 100%, 56%);
 }
 
 
@@ -195,10 +536,12 @@ padding-right:140px;
     width:75px;
     height:75px;
 }
+#contactp{
+    font-size: 300%;
+    font-family: "Madimi One", sans-serif;
+   padding-right: 250px;
+   color:yellow;
 }
-@media only screen and (min-width: 1200px){
-    #skaneflag{
-        width:30%;
-    }
+}
 
-}
+   
