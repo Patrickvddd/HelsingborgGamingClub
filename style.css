@@ -5,12 +5,7 @@ body {
     padding: 0;
   }
   
-#nav {
-    display:flex;
-    position:absolute;
-    justify-content: space-between;
-    right:0;
-}
+
 #headtitle {
     background-color:rgb(44, 126, 126);
     font-family: "Bebas Neue", sans-serif;
